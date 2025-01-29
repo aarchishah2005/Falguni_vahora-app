@@ -1,5 +1,4 @@
 import React from 'react';
-import { Home, BarChart2, BookOpen, Info, LogIn, UserPlus } from 'lucide-react';
 import './Header.css';
 
 const Header = () => {

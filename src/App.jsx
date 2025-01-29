@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import Header from './components/header';
+import Header from './components/Header';
 import Heading from './components/heading';
 import Button from './components/button';
 import CoachingSection from './components/coachingsection';
 import FinancialPrograms from './components/financialprogram';
 import FinancialCards from './components/FinancialCards';
 import ContactForm from './components/ContactForm';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {

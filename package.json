@@ -1,5 +1,5 @@
 {
-  "homepage": "https://aarchishah2005.github.io/Falguni_vahora",
+  "homepage": "https://aarchishah2005.github.io/falguni",
   "name": "profile-app",
   "private": true,
   "version": "0.0.0",
@@ -10,6 +10,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bauhaus:wght@5&display=swap');
+
+
 html, body {
   margin: 0;
   padding: 0;
@@ -8,6 +11,7 @@ html, body {
 .cards-container {
   padding: 0 4rem 2rem;
   width: 90%;
+  font-family: 'Bauhaus', sans-serif;
   margin: 0 auto;
 }
 
@@ -72,7 +76,7 @@ html, body {
 
 /* Styling for the main title */
 .card-main-title {
-  font-family: "Playfair Display", serif;
+  font-family: 'Bauhaus', sans-serif;
   color: #84c225;
   font-size: 1.8rem;
   font-weight: 400;
@@ -95,9 +99,9 @@ html, body {
 
 /* Styling for subtitle */
 .card-subtitle {
-  font-family: "Playfair Display", serif;
+  font-family: 'Bauhaus', sans-serif;
   color: #84c225;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 400;
   margin-bottom: 1rem;
 }
@@ -105,7 +109,7 @@ html, body {
 /* Styling for the card text */
 .card-text {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
