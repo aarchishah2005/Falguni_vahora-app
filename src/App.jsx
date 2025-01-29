@@ -7,7 +7,7 @@ import CoachingSection from './components/coachingsection';
 import FinancialPrograms from './components/financialprogram';
 import FinancialCards from './components/FinancialCards';
 import ContactForm from './components/ContactForm';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
