@@ -1,5 +1,5 @@
 import React from 'react';
-import './CoachingSection.css';
+import './coachingsection.css';
 
 const CoachingSection = () => {
   return (
