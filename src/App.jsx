@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import Header from './components/Header';
+import Header from './components/header';
 import Heading from './components/heading';
 import Button from './components/button';
 import CoachingSection from './components/coachingsection';
