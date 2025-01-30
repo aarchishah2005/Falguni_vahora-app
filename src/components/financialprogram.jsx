@@ -1,5 +1,5 @@
 import React from 'react';
-import './financialprograms.css';
+import './Financialprograms.css';
 
 
 const FinancialPrograms = () => {
