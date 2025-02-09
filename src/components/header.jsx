@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './header.css';
 
 const Header = () => {
@@ -7,30 +8,29 @@ const Header = () => {
       
       {/* Logo and Brand */}
       <div>
-      <a href="/home">
+      <Link to="/">
         <img src="/assets/logo.jpeg" alt="Brand Logo" className="brand-logo" />
-      </a>
+      </Link>
     </div>
 
 
 
       {/* Navigation Links */}
     <div className="nav-links">
-        <NavLink text="Home" />
-        <NavLink text="About" />
-        <NavLink text="Coaching" />
-        <NavLink text="Book" />
-        <NavLink text="Contact" />
+        <NavLink to="/" text="Home" />
+        <NavLink to="/about" text="About" />
+        <NavLink to="/coaching"  text="Coaching" />
+        <NavLink to="/book" text="Book" />
+        <NavLink to="/contact" text="Contact" />
     </div>
     </nav>
   );
 };
 
 const NavLink = ({ icon, text }) => (
-  <a href="#" className="nav-link">
-    {icon}
+  <Link to={to} className="nav-link">
     <span>{text}</span>
-  </a>
+ </Link>
 );
 
 export default Header;
